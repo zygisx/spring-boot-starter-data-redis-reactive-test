@@ -1,7 +1,7 @@
 # Performance results
 
 ```
-wrk -t 50 -c 200 -d60s 'http://localhost:8080/redis-test'
+$ wrk -t 50 -c 200 -d60s 'http://localhost:8080/redis-test'
 Running 1m test @ http://localhost:8080/redis-test
   50 threads and 200 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
