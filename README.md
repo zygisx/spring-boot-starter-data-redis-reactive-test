@@ -1,4 +1,14 @@
-# Performance results
+### Run application
+
+```
+$ docker-compose up
+```
+
+```
+./gradlew bootRun
+```
+
+### Performance results
 
 ```
 $ wrk -t 50 -c 200 -d60s 'http://localhost:8080/redis-test'
