@@ -5,7 +5,7 @@ $ docker-compose up
 ```
 
 ```
-./gradlew bootRun
+$ ./gradlew bootRun
 ```
 
 ### Performance results
